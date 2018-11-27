@@ -8,3 +8,12 @@ git commit -m <"message">//提交给库 并附上提交信息
 
 git status//查看git状态
 git diff  <filename>//产看文件改动情况
+
+/*
+HEAD^  回退一步
+HEAD^^ 回退两步
+HEAD~100 回退一百步
+*/
+git reset --hard commit_id//跳到某一个快照处
+git log//查看git日志
+git reflog//查看所有操作
