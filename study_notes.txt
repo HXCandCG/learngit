@@ -1,0 +1,10 @@
+
+git config --global user.name "Your Name"   //定义全局变量名
+git config --global user.email "Your Email" //定义全局变量邮箱
+/*注意git config命令的--global参数，用了这个参数，表示你这台机器上所有的Git仓库都会使用这个配置*/
+
+git add <file>//制定文件入库 可一次加多个
+git commit -m <"message">//提交给库 并附上提交信息
+
+git status//查看git状态
+git diff  <filename>//产看文件改动情况
